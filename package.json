@@ -4,7 +4,8 @@
   "description": "Official site of IT company Veles",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "parcel ./src/index.html -p 5468 --open",
+    "build": "parcel build ./src/index.html --no-source-maps"
   },
   "keywords": [
     "js",
